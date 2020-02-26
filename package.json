@@ -1,0 +1,26 @@
+{
+  "name": "javascript-rules-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jinxac/javascript-rules-backend.git",
+  "author": "<saluja.harkirat@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.11",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.4",
+    "sequelize-auto-migrations": "^1.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
