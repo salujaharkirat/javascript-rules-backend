@@ -30,4 +30,4 @@ app.use(cors());
 // Route Middleware
 app.use("/api/v0/rules", rulesRoute);
 
-app.listen(3000, () => console.log("Server Listening..."));
+app.listen(3002, () => console.log("Server Listening..."));
